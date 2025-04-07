@@ -1,0 +1,40 @@
+.About {
+  background-color: #f2f2f2; /* Light gray background color */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.About h2 {
+  margin-top: 0; /* Remove default margin */
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .headbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-area {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .search-area input[type="text"] {
+    width: 100%;
+  }
+
+  .login-button,
+  .Join-button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

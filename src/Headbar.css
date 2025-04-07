@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+  }
+  
+  .headbar {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #807f8127;
+    color: #0b0b0b;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .headbar h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  
+  .button-area {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-area button {
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    color: #0b0b0b;
+  }
+  
+  .button-area button:hover {
+    background-color: #ffffff;
+    border-radius: 70%;
+  }
+  
+  .dropdown-menu {
+    position: relative;
+  }
+  
+  .dropdown-menu button {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color: #0b0b0b;
+  }
+  
+  .dropdown-menu button:hover {
+    background-color: #ffffff;
+    border-radius: 90%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-menu:hover .dropdown-content {
+    display: block;
+  }
+  
+  .search-overlay {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    width: 15%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-overlay input {
+    flex-grow: 7; /* Take 70% of the remaining space */
+    margin-right: 5px; /* Add some space between input and button */
+  }
+  
+  .search-overlay button {
+    flex-grow: 3; /* Take 30% of the remaining space */
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .search-overlay button:hover {
+    background-color: #0056b3;
+  }
+  
