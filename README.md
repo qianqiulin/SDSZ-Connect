@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mini-project that use HTML, React, Javascript and CSS to build a front-end web.
 
 Currently, two official plugins are available:
 
